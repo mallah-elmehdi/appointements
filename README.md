@@ -7,10 +7,10 @@
 ```docker run --name cleanAndSealDentalProgramDB -p 27017:27017 -d mongodb/mongodb-community-server:latest```
 
 # Run the Back End
-```cd back-end && npm start```
+```cd back-end && npm i && npm start```
 
 # Run the Front End
-```cd front-end && npm start```
+```cd front-end && npm i && npm start```
 
 # Access the app via
 ```http://localhost:5173/```
